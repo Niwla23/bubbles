@@ -43,12 +43,13 @@ minetest.register_node("bubbles:admin_machine", {
 
 })
 	end,
-	
-
+}
+)
 facedir = minetest.dir_to_facedir({x=0,y=0,z=1})
 
 
 minetest.register_node("bubbles:snowmachine", {
+	description = "Snow machine",
     tiles = {
         "default_steel_block.png",
         "default_steel_block.png",
@@ -58,7 +59,7 @@ minetest.register_node("bubbles:snowmachine", {
         "default_steel_block.png"
     },
 	drawtype = "nodebox",
-	description = "Snow machine",
+	
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {cracky=3},
