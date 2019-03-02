@@ -13,6 +13,7 @@ minetest.register_node("bubbles:admin_machine", {
     },
     drawtype = "nodebox",
 	paramtype = "light",
+	description = "Super Fog machine",
 	paramtype2 = "facedir",
 	groups = {cracky=3},
     node_box = {
@@ -56,7 +57,8 @@ minetest.register_node("bubbles:snowmachine", {
         "default_steel_block.png",
         "default_steel_block.png"
     },
-    drawtype = "nodebox",
+	drawtype = "nodebox",
+	description = "Snow machine",
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {cracky=3},
@@ -106,7 +108,8 @@ minetest.register_node("bubbles:machine", {
         "default_steel_block.png",
         "default_steel_block.png"
     },
-    drawtype = "nodebox",
+	drawtype = "nodebox",
+	description = "Fog machine",
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {cracky=3},
